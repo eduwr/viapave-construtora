@@ -1,3 +1,5 @@
+import { Hero } from "@/lib/Hero";
+
 export default function Home() {
-  return <main>Viapave</main>;
+  return <Hero />;
 }

@@ -5,6 +5,7 @@ import { Footer } from "@/lib/Footer";
 import { Header } from "@/lib/Header";
 
 import '@mantine/core/styles.css';
+import './global.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
