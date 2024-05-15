@@ -7,7 +7,7 @@ import classes from './Header.module.css';
 import Link from 'next/link';
 
 const links = [
-  { link: '/about', label: 'Viapave' },
+  { link: '/sobre', label: 'Viapave' },
   {
     link: 'Diferenciais',
     label: 'Learn',
