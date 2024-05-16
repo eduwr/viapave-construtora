@@ -1,30 +1,20 @@
-"use client"
+"use client";
 
-import { Menu, Group, Center, Burger, Container } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+import { Menu, Group, Center, Burger, Container } from "@mantine/core";
+import { useDisclosure } from "@mantine/hooks";
 // import { IconChevronDown } from '@tabler/icons-react';
-import classes from './Header.module.css';
-import Link from 'next/link';
+import classes from "./Header.module.css";
+import Link from "next/link";
 
 const links = [
-  { link: '/sobre', label: 'Viapave' },
-  {
-    link: 'Diferenciais',
-    label: 'Learn',
-    // links: [
-    //   { link: '/docs', label: 'Documentation' },
-    //   { link: '/resources', label: 'Resources' },
-    //   { link: '/community', label: 'Community' },
-    //   { link: '/blog', label: 'Blog' },
-    // ],
-  },
-  { link: '/estrutura', label: 'Estrutura' },
-  { link: '/pessoas', label: 'Pessoas' },
-  { link: '/sustentabilidade', label: 'Sustentabilidade' },
-  { link: '/valores', label: 'Valores' },
-  { link: '/clientes', label: 'Clientes' },
-  { link: '/contato', label: 'Contato' },
-  { link: '/denuncia', label: 'Canal de denuncia' },
+  { link: "/sobre", label: "Viapave" },
+  { link: "/estrutura", label: "Estrutura" },
+  { link: "/pessoas", label: "Pessoas" },
+  { link: "/projetos", label: "Projetos" },
+  { link: "/valores", label: "Valores" },
+  { link: "/clientes", label: "Clientes" },
+  { link: "/contato", label: "Contato" },
+  { link: "/denuncia", label: "Canal de denuncia" },
 ];
 
 export function Header() {
@@ -59,7 +49,6 @@ export function Header() {
       <Link
         key={link.label}
         href={link.link}
-        
         className={classes.link}
         onClick={(event) => event.preventDefault()}
       >

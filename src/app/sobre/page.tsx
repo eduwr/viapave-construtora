@@ -3,7 +3,7 @@ import { Title, Text, List, ListItem, Container } from "@mantine/core";
 const About = () => {
   return (
     <Container m="lg" my="lg">
-      <Title size="h3">Sobre a Empresa</Title>
+      <Title size="h3">Sobre a Viapave</Title>
       <Text my="md">
         Somos uma empresa familiar com 30 anos de experiência no ramo da
         construção civil, especializada em rodovias, pavimentação e
@@ -19,21 +19,21 @@ const About = () => {
       <Title size="h5">Nossos valores:</Title>
       <List my="md">
         <ListItem>
-          Qualidade: Buscamos a excelência em tudo que fazemos, desde a escolha
-          dos materiais até a execução dos serviços.
+          <strong>Qualidade:</strong> Buscamos a excelência em tudo que fazemos,
+          desde a escolha dos materiais até a execução dos serviços.
         </ListItem>
         <ListItem>
-          Compromisso: Cumprimos prazos e entregamos projetos dentro do
-          orçamento. Segurança: Priorizamos a segurança dos nossos colaboradores
-          e de todos os envolvidos nos projetos.
+          <strong>Compromisso:</strong> Cumprimos prazos e entregamos projetos
+          dentro do orçamento. Segurança: Priorizamos a segurança dos nossos
+          colaboradores e de todos os envolvidos nos projetos.
         </ListItem>
         <ListItem>
-          Ética: Atuamos com ética e responsabilidade em todas as nossas
-          relações.
+          <strong>Ética:</strong> Atuamos com ética e responsabilidade em todas
+          as nossas relações.
         </ListItem>
         <ListItem>
-          Inovação: Buscamos constantemente novas tecnologias e soluções para
-          aprimorar nossos serviços.
+          <strong>Inovação:</strong> Buscamos constantemente novas tecnologias e
+          soluções para aprimorar nossos serviços.
         </ListItem>
       </List>
       <Text my="md">
