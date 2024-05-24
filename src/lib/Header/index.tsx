@@ -1,10 +1,11 @@
 "use client";
 
-import { Menu, Group, Center, Burger, Container } from "@mantine/core";
+import { Menu, Group, Center, Burger, Container, Box } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 // import { IconChevronDown } from '@tabler/icons-react';
 import classes from "./Header.module.css";
 import Link from "next/link";
+import { Logo } from "../Logo";
 
 const links = [
   { link: "/sobre", label: "Viapave" },
@@ -61,7 +62,10 @@ export function Header() {
     <header className={classes.header}>
       <Container size="md">
         <div className={classes.inner}>
-          {/* <MantineLogo size={28} /> */}
+          <Box visibleFrom="sm" >
+          <Logo />
+
+          </Box>
           <Group gap={5} visibleFrom="sm">
             {items}
           </Group>
