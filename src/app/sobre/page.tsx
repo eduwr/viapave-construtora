@@ -1,10 +1,8 @@
-import { Title, Text, List, ListItem, Container } from "@mantine/core";
-
 const About = () => {
   return (
-    <Container m="lg" my="lg">
-      <Title size="h3">Sobre a Viapave</Title>
-      <Text my="md">
+    <div>
+      <h3>Sobre a Viapave</h3>
+      <p>
         Somos uma empresa familiar com 30 anos de experiência no ramo da
         construção civil, especializada em rodovias, pavimentação e
         terraplenagem. Ao longo da nossa trajetória, construímos uma sólida
@@ -15,33 +13,33 @@ const About = () => {
         e qualificada utiliza as melhores técnicas e equipamentos disponíveis no
         mercado para garantir a execução de projetos com alta qualidade,
         eficiência e dentro do orçamento.
-      </Text>
-      <Title size="h5">Nossos valores:</Title>
-      <List my="md">
-        <ListItem>
+      </p>
+      <h5>Nossos valores:</h5>
+      <ul>
+        <li>
           <strong>Qualidade:</strong> Buscamos a excelência em tudo que fazemos,
           desde a escolha dos materiais até a execução dos serviços.
-        </ListItem>
-        <ListItem>
+        </li>
+        <li>
           <strong>Compromisso:</strong> Cumprimos prazos e entregamos projetos
           dentro do orçamento. Segurança: Priorizamos a segurança dos nossos
           colaboradores e de todos os envolvidos nos projetos.
-        </ListItem>
-        <ListItem>
+        </li>
+        <li>
           <strong>Ética:</strong> Atuamos com ética e responsabilidade em todas
           as nossas relações.
-        </ListItem>
-        <ListItem>
+        </li>
+        <li>
           <strong>Inovação:</strong> Buscamos constantemente novas tecnologias e
           soluções para aprimorar nossos serviços.
-        </ListItem>
-      </List>
-      <Text my="md">
+        </li>
+      </ul>
+      <p>
         Se você procura uma empresa confiável e experiente para realizar seus
         projetos de construção de rodovias, pavimentação ou terraplenagem, entre
         em contato conosco. Teremos o prazer de atendê-lo!
-      </Text>
-    </Container>
+      </p>
+    </div>
   );
 };
 

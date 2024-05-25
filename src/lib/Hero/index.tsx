@@ -1,35 +1,31 @@
-import { Overlay, Container, Title, Button, Text } from "@mantine/core";
-import classes from "./Hero.module.css";
 import Image from "next/image";
+import { Navbar } from "../Navbar";
 
 export function Hero() {
   return (
-    <div className={classes.hero}>
-      <Image src="/hero-background.jpg" alt="hero image" fill={true} />
-      <Overlay
-        gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)"
-        opacity={1}
-        zIndex={0}
+    <div className="relative h-screen flex flex-col">
+      <Navbar></Navbar>
+      <div className="-z-10 absolute bg-black opacity-70 top-0 bottom-0 left-0 right-0"></div>
+
+      <Image
+        className="-z-50"
+        objectFit="cover"
+        src="/hero-background.jpg"
+        alt="hero image"
+        fill={true}
       />
-      <Container className={classes.container} size="md">
-        <Title className={classes.title}>
-          Pavimentação e Terraplanagem de Qualidade
-        </Title>
-        <Text className={classes.description} size="xl" mt="xl">
+
+      <div className="p-16 relative">
+    
+        <h3 className="text-3xl font-bold uppercase text-yellow-500 my-5">Pavimentação e Terraplanagem</h3>
+        <p className="text-white opacity-70 my-3">
           Transformando paisagens com precisão na terraplanagem e na extração de
           rochas. Explore nossas soluções completas projetadas para superar
           expectativas.
-        </Text>
+        </p>
 
-        <Button
-          variant="gradient"
-          size="xl"
-          radius="xl"
-          className={classes.control}
-        >
-          Solicite um Orçamento
-        </Button>
-      </Container>
+        <button className="p-5 bg-yellow-500 uppercase">Solicite um Orçamento</button>
+      </div>
     </div>
   );
 }

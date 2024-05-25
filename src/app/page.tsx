@@ -1,5 +1,5 @@
 import { Hero } from "@/lib/Hero";
 
 export default function Home() {
-  return <Hero />;
+  return <main><Hero /></main>;
 }
