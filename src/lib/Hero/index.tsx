@@ -3,7 +3,7 @@ import { Navbar } from "../Navbar";
 
 export function Hero() {
   return (
-    <div className="relative h-screen flex flex-col justify-between">
+    <section id="inicio" className="relative h-screen flex flex-col justify-between">
       <Navbar></Navbar>
       <div className="-z-10 absolute bg-black opacity-70 top-0 bottom-0 left-0 right-0"></div>
 
@@ -30,6 +30,6 @@ export function Hero() {
         </button>
       </div>
       <p></p>
-    </div>
+    </section>
   );
 }

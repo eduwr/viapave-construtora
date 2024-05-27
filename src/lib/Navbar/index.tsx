@@ -1,13 +1,17 @@
 "use client";
 import { Logo } from "../Logo";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import e from "express";
 import { useState } from "react";
 const links = [
   {
     text: "Início",
-    link: "/",
+    link: "#",
   },
-
+  {
+    text: "Serviços",
+    link: "#nossos-servicos",
+  },
   {
     text: "Sobre",
     link: "#sobre",
@@ -54,6 +58,9 @@ export const Navbar = () => {
               key={l.text}
               className="p-5 text-white w-full text-center hover:bg-gray-900 transition-all"
               href={l.link}
+              onClick={(e) => {
+                setMenuOpen(false);
+              }}
             >
               {l.text}
             </a>
