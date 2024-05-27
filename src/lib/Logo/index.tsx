@@ -40,8 +40,8 @@ const LogoDarkBg = () => (
         y2="108.38"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#484848" />
-        <stop offset="1" stop-color="#111214" />
+        <stop stopColor="#484848" />
+        <stop offset="1" stopColor="#111214" />
       </linearGradient>
       <clipPath id="clip0_5_4">
         <rect width="218" height="100" fill="white" />
@@ -89,8 +89,8 @@ const LogoLightBg = () => (
         y2="107.097"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#484848" />
-        <stop offset="1" stop-color="#111214" />
+        <stop stopColor="#484848" />
+        <stop offset="1" stopColor="#111214" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_5_32"
@@ -100,8 +100,8 @@ const LogoLightBg = () => (
         y2="90.8448"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#484848" />
-        <stop offset="1" stop-color="#111214" />
+        <stop stopColor="#484848" />
+        <stop offset="1" stopColor="#111214" />
       </linearGradient>
     </defs>
   </svg>
