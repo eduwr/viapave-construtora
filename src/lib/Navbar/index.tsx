@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { Logo } from "../Logo";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
@@ -27,8 +27,8 @@ export const Navbar = () => {
 
   const iconSize = {
     width: 24,
-    height: 24
-  }
+    height: 24,
+  };
 
   return (
     <nav className="flex items-center justify-between px-4">
@@ -40,7 +40,7 @@ export const Navbar = () => {
         {links.map((l) => (
           <a
             key={l.text}
-            className="p-5 hover:border-2 text-white "
+            className="p-5 hover:bg-gray-800 text-white transition-all"
             href={l.link}
           >
             {l.text}
@@ -52,7 +52,7 @@ export const Navbar = () => {
           {links.map((l) => (
             <a
               key={l.text}
-              className="p-5 text-white w-full text-center"
+              className="p-5 text-white w-full text-center hover:bg-gray-900 transition-all"
               href={l.link}
             >
               {l.text}
