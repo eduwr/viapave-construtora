@@ -1,5 +1,5 @@
 import { Logo } from "../Logo";
-
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 const links = [
   {
     text: "Início",
@@ -17,10 +17,14 @@ const links = [
 ];
 
 export const Navbar = () => {
+ 
   return (
     <nav className="flex items-center justify-between px-4">
       <Logo bgDark />
-      <div className="flex justify-end flex-1 items-center">
+      <button type="button" className="md:hidden">
+        <HamburgerMenuIcon color="white"/>
+      </button>
+      <div className="hidden md:flex justify-end flex-1 items-center">
         {links.map((l) => (
           <a
             key={l.text}
