@@ -18,7 +18,7 @@ export const AboutUs = () => {
         <div className="md:flex md:items-center md:justify-center">
           <div className="md:w-1/2 md:mr-8 mb-4 md:mb-0">
             <Image
-              src="/images/hard-hats.jpg"
+              src="/images/about-us.jpeg"
               alt="About Us Image"
               width={600}
               height={400}
