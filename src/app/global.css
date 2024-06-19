@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  .debug {
+    @apply border-red-700 border-solid border;
+  }
+}
+
 main {
   width: 100%;
   display: flex;

@@ -3,13 +3,13 @@ import { Navbar } from "../Navbar";
 
 export function Hero() {
   return (
-    <section id="inicio" className="relative h-screen flex flex-col justify-between">
+    <section id="inicio" className="relative h-screen flex flex-col justify-between w-full">
       <Navbar></Navbar>
       <div className="-z-10 absolute bg-black opacity-70 top-0 bottom-0 left-0 right-0"></div>
 
       <Image
         className="-z-50"
-        objectFit="cover"
+        style={{ objectFit: 'cover' }}
         src="/hero-background.jpg"
         alt="hero image"
         fill={true}
