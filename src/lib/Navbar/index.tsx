@@ -1,6 +1,6 @@
 "use client";
 import { Logo } from "../Logo";
-import { FaHamburger } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 import { useState } from "react";
 const links = [
@@ -38,7 +38,7 @@ export const Navbar = () => {
     <nav className="flex items-center justify-between px-4">
       <Logo bgDark />
       <button onClick={toggleMenu} type="button" className="md:hidden">
-        <FaHamburger {...iconSize} color="white" />
+        <FaBars {...iconSize} color="white" />
       </button>
       <div className="hidden md:flex justify-end flex-1 items-center">
         {links.map((l) => (
