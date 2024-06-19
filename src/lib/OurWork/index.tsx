@@ -34,20 +34,21 @@ export const OurWork = () => {
   ];
 
   return (
-    <section id="nossos-servicos" className="p-10 prose">
-      <h3 className="h3">Nossos Serviços</h3>
-      <div className="divide-solid divide-y">
-        {services.map((s) => {
-          return (
-            <div key={s.title} className="py-6 flex items-center">
+    <section id="nossos-servicos" className="p-10">
+      <h2 className="text-2xl mb-4">Nossos Serviços</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {services.map((s) => (
+          <div
+            key={s.title}
+            className="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
+          >
+            <div className="flex items-center mb-4">
               <div className="mr-4 text-4xl text-yellow-600">{s.icon}</div>
-              <div>
-                <h5 className="text-xl font-bold">{s.title}</h5>
-                <p>{s.description}</p>
-              </div>
+              <h5 className="text-xl font-bold">{s.title}</h5>
             </div>
-          );
-        })}
+            <p>{s.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );
