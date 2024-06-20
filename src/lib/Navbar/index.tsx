@@ -9,16 +9,20 @@ const links = [
     link: "#",
   },
   {
-    text: "Serviços",
-    link: "#nossos-servicos",
-  },
-  {
     text: "Sobre",
     link: "#sobre",
   },
   {
+    text: "Serviços",
+    link: "#nossos-servicos",
+  },
+  {
     text: "Projeto",
     link: "#projetos",
+  },
+  {
+    text: "Contato",
+    link: "#contato",
   },
 ];
 

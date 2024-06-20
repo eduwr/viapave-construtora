@@ -1,4 +1,3 @@
-import React from "react";
 import { FaTruck, FaRoad, FaTools, FaTrain, FaMountain } from "react-icons/fa";
 
 export const OurWork = () => {
