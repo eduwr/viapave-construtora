@@ -50,7 +50,7 @@ export const Footer = () => {
                 href="mailto:viapave.construtora@gmail.com"
                 className="hover:text-gray-400"
               >
-                exemplo@example.com
+                viapave.construtora@gmail.com
               </a>
             </li>
             <li className="flex items-center">

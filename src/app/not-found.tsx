@@ -12,14 +12,15 @@ export default async function NotFound() {
           height={300}
         />
         <div>
-          <h3>Something is not right...</h3>
+          <h3>Algo não está certo...</h3>
           <p>
-            Page you are trying to open does not exist. You may have mistyped
-            the address, or the page has been moved to another URL. If you think
-            this is an error contact support.
+            A página que você está tentando abrir não existe. Talvez você tenha
+            digitado o endereço incorretamente ou a página foi movida para outra
+            URL. Se você acha que isso é um erro, entre em contato com o
+            suporte.
           </p>
           <Link href={"/"}>
-            <button>Get back to home page</button>
+            <button>Voltar para a página inicial</button>
           </Link>
         </div>
         <Image
