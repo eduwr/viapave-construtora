@@ -27,10 +27,14 @@ export function Hero() {
           soluções de terraplenagem e extração de rochas são projetadas para
           atender e superar suas necessidades.
         </p>
-
-        <button className="p-3 font-semibold bg-yellow-500 uppercase hover:scale-110 hover:opacity-85 transition-all">
+        <a
+          href="https://wa.me/+5541992844979"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-3 font-semibold bg-yellow-500 uppercase hover:scale-110 hover:opacity-85 transition-all"
+        >
           Solicite um Orçamento
-        </button>
+        </a>
       </div>
       <p></p>
     </section>

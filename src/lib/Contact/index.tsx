@@ -12,7 +12,7 @@ export const Contact = () => {
           obter mais informações sobre nossos serviços.
         </p>
         <a
-          href="https://wa.me/SEUNUMERODOTELEFONE"
+          href="https://wa.me/+5541992844979"
           target="_blank"
           rel="noopener noreferrer"
           className="flex bg-green-500 text-white px-6 py-3 font-semibold rounded-md shadow-md hover:bg-green-600 items-center justify-center"
@@ -24,4 +24,3 @@ export const Contact = () => {
     </section>
   );
 };
- 

@@ -15,7 +15,7 @@ export const AboutUs = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 md:hidden">
           Sobre Nós
         </h2>
-        <div className="md:flex md:items-center md:justify-center">
+        <div className="md:flex md:items-center md:justify-center px-5 md:px-0">
           <div className="md:w-1/2 md:mr-8 mb-4 md:mb-0">
             <Image
               src="/images/about-us.jpeg"
